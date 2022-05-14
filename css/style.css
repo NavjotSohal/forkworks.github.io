@@ -789,9 +789,6 @@ margin-top:50px;
     z-index:9;
     display:block;
 }
-.home-item-display-sm{
-    color:red;
-}
 .blog-page-bg{
     height:63vh;
     width:100vw;
@@ -1249,7 +1246,229 @@ svg{
     stroke-dashoffset: -134;
     stroke-width: 3;
   }
-  
+/** Slick Slider css starts here**/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.testimony-section .owl-dots .owl-dot.active {
+    background: #1bbc9b;
+}
+.testimony-section .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.2);
+}
+
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+/* .slick-active
+{
+        background: #1bbc9b;
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        border-radius: 50%;
+        background: rgba(0,0,0,.2);
+} */
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.slick-prev, .slick-next{
+    display: none !important;
+}
+.slick-dots{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#slick-slide-control00{
+    background: rgba(0,0,0,.2);
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border:none;
+    outline:none;
+    color:#1bbc9b;
+    border-radius: 50%;
+    font-size:0px;
+}
+#slick-slide-control01{
+    background: rgba(0,0,0,.2);
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border:none;
+    outline:none;
+    color:#1bbc9b;
+    border-radius: 50%;
+    font-size:0px;
+} 
+#slick-slide-control02{
+    background: rgba(0,0,0,.2);
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border:none;
+    outline:none;
+    color:#1bbc9b;
+    border-radius: 50%;
+    font-size:0px;
+} 
+#slick-slide-control03{
+    background: rgba(0,0,0,.2);
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border:none;
+    outline:none;
+    color:#1bbc9b;
+    border-radius: 50%;
+    font-size:0px;
+} 
+#slick-slide-control04{
+    background: rgba(0,0,0,.2);
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border:none;
+    outline:none;
+    border-radius: 50%;
+    font-size:0px;
+} 
+#slick-slide-control05{
+    background: rgba(0,0,0,.2);
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border:none;
+    outline:none;
+    color:#1bbc9b;
+    border-radius: 50%;
+    font-size:0px;
+}
+.slick-active > #slick-slide-control00{
+    background: #1bbc9b;
+}
+.slick-active > #slick-slide-control01{
+    background: #1bbc9b;
+}
+.slick-active > #slick-slide-control02{
+    background: #1bbc9b;
+}
+.slick-active > #slick-slide-control03{
+    background: #1bbc9b;
+}
+.slick-active > #slick-slide-control04{
+    background: #1bbc9b;
+}
+.slick-active > #slick-slide-control05{
+    background: #1bbc9b;
+}
+
+/**Slick slider css ends here**/
+
+.cust-slide-pack{
+    padding-top:40px;
+}
 
 @media screen and (max-width: 720px) and (min-width: 300px) {
     .home-item-display{
