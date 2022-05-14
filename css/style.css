@@ -1469,7 +1469,10 @@ svg{
 .cust-slide-pack{
     padding-top:40px;
 }
-
+.about-dtls-cont{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
 @media screen and (max-width: 720px) and (min-width: 300px) {
     .home-item-display{
         background:#000;
