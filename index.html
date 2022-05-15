@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -57,14 +59,29 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+    ]
     });
   });
-    
   </script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
 
 </head>
 <body>   
@@ -107,7 +124,12 @@
 
 <!-- Big Screen Navbar Starts Here -->
 
-<div class="container-fluid d-flex flex-column home">
+<div class="container-fluid d-flex flex-column home owl-carousel owl-theme">
+  <div class="owl-stage-outer">
+    <div class="item" style="background-image: url('img/car-1.png');"></div>
+    <div class="item" style="background-image: url('img/car-2.png');"></div>
+    <div class="item" style="background-image: url('img/car-3.png');"></div>
+  </div>
   <!-- Company bio details-->
   <div class="container-fluid comp-info">
     <div class="container">
@@ -201,7 +223,7 @@
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 abt-imgs" id="abt-img1"></div>
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 abt-imgs" id="abt-img2"></div>
     </div>
-    <div data-aos="fade-up" class="col-md-5 col-lg-5 col-xl-5 about-dtls-cont">
+    <div data-aos="fade-up" class="col-md-5 col-lg-5 col-xl-5 about-dtls-cont heading-pack">
       <div class="subheading">
         About
       </div>
@@ -455,7 +477,7 @@
               <label for="time" class="form-label">Time</label>
               <input type="time" class="form-control" placeholder="Time" name="Time">
             </div>
-            <div class="col-xs-12 col-md-12 col-lg-6">
+            <div class="col-xs-12 col-md-6 col-lg-6">
               <label for="Person" class="form-label">Person</label>
               <select class="form-select form-control">
                 <option class="form-control">Person</option>
@@ -563,7 +585,7 @@
 
 <div class="container-fluid blog-bg sec-p">
   <div class="container">
-    <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 text-center">
+    <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 text-center heading-pack">
       <div class="subheading">
         Blog
       </div>
@@ -696,6 +718,8 @@
 <script src="js/slick.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<!-- <script src="jquery.min.js"></script> -->
 <script>
   AOS.init();
 </script>
