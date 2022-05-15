@@ -81,15 +81,54 @@ $('.owl-carousel').owlCarousel({
     }
 })
 </script>
-
-
 </head>
 <body>   
+
+<!--Scroll navbar starts here-->
+
+  <div class="container-fluid bg-white scroll-navbar-pack" id="scrollNav">
+    <div class="container">
+      <nav class="navbar scrl-nav navbar-expand-lg n-btm-bdr">
+        <div class="container-fluid">
+          <a class="navbar-brand scrl-link logo" href="index.html">ForkWorks<span class="tag-line-sm">...Exotic food paradise</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav hello d-flex flex-row justify-content-end w-100 d-sm-column">
+              <li class="nav-item">
+                <a class="nav-link scrl-link page-active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrl-link" href="link\about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrl-link" href="link\menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrl-link" href="link\blog.html">Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrl-link" href="link\contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrl-link scrl-book-btn scrl-btn-clr-exl" href="link\reservation.html">Book a table</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+<!--Scroll navbar ends here-->
+
+
   <!--Navbar Small-->
   <div class="small-nav w-100">
     <nav class="navbar mb-none p-3">
       <div class="w-100 d-flex flex-row justify-content-between">
-        <a class="navbar-brand logo" href="index.html">ForkWorks<span class="tag-line">...ultimate food paradise</span></a>
+        <a class="navbar-brand logo" href="index.html">ForkWorks<span class="tag-line">...Exotic food paradise</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="d-flex flex-row justify-content-between align-items-center menu-btn-txt"><i class="fa-solid fa-bars "></i></span>
           </button>
@@ -121,15 +160,10 @@ $('.owl-carousel').owlCarousel({
 
 <!--Small Navigation Ends Here-->
 
-
 <!-- Big Screen Navbar Starts Here -->
 
-<div class="container-fluid d-flex flex-column home owl-carousel owl-theme">
-  <div class="owl-stage-outer">
-    <div class="item" style="background-image: url('img/car-1.png');"></div>
-    <div class="item" style="background-image: url('img/car-2.png');"></div>
-    <div class="item" style="background-image: url('img/car-3.png');"></div>
-  </div>
+<div class="container-fluid d-flex flex-column home">
+  
   <!-- Company bio details-->
   <div class="container-fluid comp-info">
     <div class="container">
@@ -153,7 +187,7 @@ $('.owl-carousel').owlCarousel({
     <div class="container navigate">  
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand logo" href="index.html">ForkWorks<span class="tag-line">...ultimate food paradise</span></a>
+          <a class="navbar-brand logo" href="index.html">ForkWorks<span class="tag-line">...Exotic food paradise</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -189,22 +223,22 @@ $('.owl-carousel').owlCarousel({
   <div class="container-fluid">
     <div class="d-flex flex-row np-x bg-pack home-item-display">
       <div class="row d-flex flex-grow-1 up-bdr">
-        <div data-aos="fade-up" data-aos-duration="500" class="col-md-3 text-center np-x">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-3 text-center np-x">
           <div class="home-round-imgs" id="round-img1"></div>
           <p class="home-img-title-txt">Escargots de Bourgogne.</p>
           <p class="home-img-desc-txt">Meat, Potatoes, Rice, Tomatoe</p>
         </div>
-        <div data-aos="fade-up" data-aos-duration="600" class="col-md-3 text-center np-x">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="600" class="col-md-3 text-center np-x">
           <div class="home-round-imgs" id="round-img2"></div>
           <p class="home-img-title-txt">Couilles de mouton</p>
           <p class="home-img-desc-txt">Meat, Potatoes, Rice, Tomatoe</p>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700" class="col-md-3 text-center np-x">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="col-md-3 text-center np-x">
           <div class="home-round-imgs" id="round-img3"></div>
           <p class="home-img-title-txt">Langue de boeuf</p>
           <p class="home-img-desc-txt">Meat, Potatoes, Rice, Tomatoe</p>
         </div>
-        <div data-aos="fade-up" data-aos-duration="900" class="col-md-3 text-center np-x">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="col-md-3 text-center np-x">
           <div class="home-round-imgs" id="round-img4"></div>
           <p class="home-img-title-txt">Tete de Veau.</p>
           <p class="home-img-desc-txt">Meat, Potatoes, Rice, Tomatoe</p>
@@ -223,7 +257,7 @@ $('.owl-carousel').owlCarousel({
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 abt-imgs" id="abt-img1"></div>
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 abt-imgs" id="abt-img2"></div>
     </div>
-    <div data-aos="fade-up" class="col-md-5 col-lg-5 col-xl-5 about-dtls-cont heading-pack">
+    <div data-aos="fade-up" data-aos-once="true" class="col-md-5 col-lg-5 col-xl-5 about-dtls-cont heading-pack">
       <div class="subheading">
         About
       </div>
@@ -236,22 +270,22 @@ $('.owl-carousel').owlCarousel({
   </div>
   <div class="row abt-cnt-pad">
     <div class="col-md-9">
-      <div data-aos="fade-up" data-aos-duration="500" class="col-md-3 counters">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-3 counters">
         <span class="gold-txt counter">18</span>
         <br>
         <span class="count-caption">YEARS OF EXPERIENCED</span>
       </div>
-      <div data-aos="fade-up" data-aos-duration="800" class="col-md-3 counters">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="800" class="col-md-3 counters">
         <span class="gold-txt counter">100</span>
         <br>
         <span class="count-caption">MENUS/DISH</span>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1000" class="col-md-3 counters">
+      <div data-aos="fade-up"  data-aos-once="true" data-aos-duration="1000" class="col-md-3 counters">
         <span class="gold-txt counter">50</span>
         <br>
         <span class="count-caption">STAFFS</span>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1300" class="col-md-3 counters">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1300" class="col-md-3 counters">
         <span class="gold-txt counter">15000</span>
         <br>
         <span class="count-caption">HAPPY CUSTOMERS</span>
@@ -267,7 +301,7 @@ $('.owl-carousel').owlCarousel({
 
 <div class="container-fluid section-bg">
   <div class="row">
-    <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 text-center">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-12 text-center">
       <div class="subheading">
         Services
       </div>
@@ -276,7 +310,7 @@ $('.owl-carousel').owlCarousel({
   </div>
   <div class="container text-center">
     <div class="row">
-      <div data-aos="fade-up" data-aos-duration="900" class="col-md-4 sc-mt">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="col-md-4 sc-mt">
         <img src="img/cake.png" class="service-pngs" />
         <p class="services-feature-header">Birthday Celebrations</p>
         <p class="service-explain-txt">
@@ -284,7 +318,7 @@ $('.owl-carousel').owlCarousel({
           about the blind texts it is an almost unorthographic.
         </p>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1100" class="col-md-4 sc-mt">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1100" class="col-md-4 sc-mt">
         <img src="img/meeting.png" class="service-pngs" />
         <p class="services-feature-header">Business Meetings</p>
         <p class="service-explain-txt">
@@ -292,7 +326,7 @@ $('.owl-carousel').owlCarousel({
           about the blind texts it is an almost unorthographic.
           </p> 
       </div>
-      <div data-aos="fade-up" data-aos-duration="1300" class="col-md-4 sc-mt">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1300" class="col-md-4 sc-mt">
         <img src="img/tray.png" class="service-pngs" />
         <p class="services-feature-header">Wedding Events</p>
         <p class="service-explain-txt">
@@ -308,7 +342,7 @@ $('.owl-carousel').owlCarousel({
 
 <div class="container">
   <div class="row" style="margin-top:60px;">
-    <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 text-center">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-12 text-center">
       <div class="subheading">
         Specialties
       </div>
@@ -316,8 +350,8 @@ $('.owl-carousel').owlCarousel({
     </div>
   </div>
   <div class="row text-center">
-    <div data-aos="fade-up" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-1"></div>
-      <div data-aos="fade-up" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
+    <div data-aos="fade-up"  data-aos-once="true" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-1"></div>
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
         <div class="d-flex flex-row text-left w-100 flex-grow-1">
           <span class="menu-item-title">Grilled Beef with potatoes</span>
           <span class="text-right menu-rate w-100">$29</span>
@@ -325,8 +359,8 @@ $('.owl-carousel').owlCarousel({
         <p class="menu-desc text-left">Meat, Potatoes, Rice, Tomatoe</p>
         <input type="submit" name="Order now" value="Order now" class="menu-order-btn">
       </div>
-      <div data-aos="fade-up" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-2"></div>
-      <div data-aos="fade-up" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
+      <div data-aos="fade-up"  data-aos-once="true" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-2"></div>
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
         <div class="d-flex flex-row text-left">
           <span class="menu-item-title">Grilled Beef with potatoes</span>
           <span class="text-right menu-rate w-100">$29</span>
@@ -336,7 +370,7 @@ $('.owl-carousel').owlCarousel({
       </div>
   </div>
   <div class="row text-center">
-    <div data-aos="fade-up" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
       <div class="d-flex flex-row text-left">
         <span class="menu-item-title">Grilled Beef with potatoes</span>
         <span class="text-right menu-rate w-100">$29</span>
@@ -344,8 +378,8 @@ $('.owl-carousel').owlCarousel({
         <p class="menu-desc text-left">Meat, Potatoes, Rice, Tomatoe</p>
         <input type="submit" name="Order now" value="Order now" class="menu-order-btn">
     </div>
-    <div data-aos="fade-up" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-3"></div>
-    <div data-aos="fade-up" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
+    <div data-aos="fade-up"  data-aos-once="true" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-3"></div>
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
       <div class="d-flex flex-row text-left">
         <span class="menu-item-title">Grilled Beef with potatoes</span>
         <span class="text-right menu-rate w-100">$29</span>
@@ -353,11 +387,11 @@ $('.owl-carousel').owlCarousel({
         <p class="menu-desc text-left">Meat, Potatoes, Rice, Tomatoe</p>
         <input type="submit" name="Order now" value="Order now" class="menu-order-btn">
     </div>
-    <div data-aos="fade-up" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-4"></div>
+    <div data-aos="fade-up"data-aos-once="true"  data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-4"></div>
   </div>
   <div class="row text-center">
-    <div data-aos="fade-up" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-5"></div>
-    <div data-aos="fade-up" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-5"></div>
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
       <div class="d-flex flex-row text-left">
         <span class="menu-item-title">Grilled Beef with potatoes</span>
         <span class="text-right menu-rate w-100">$29</span>
@@ -365,8 +399,8 @@ $('.owl-carousel').owlCarousel({
         <p class="menu-desc text-left">Meat, Potatoes, Rice, Tomatoe</p>
         <input type="submit" name="Order now" value="Order now" class="menu-order-btn">
     </div>
-      <div data-aos="fade-up" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-2"></div>
-      <div data-aos="fade-up" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="400" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-imgs" id="menu-img-2"></div>
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="300" class="col-sm-12 col-xs-12 col-md-4 col-lg-3 col-xl-3 menu-info-box d-flex flex-column justify-content-between">
         <div class="d-flex flex-row text-left">
           <span class="menu-item-title">Grilled Beef with potatoes</span>
           <span class="text-right menu-rate w-100">$29</span>
@@ -381,7 +415,7 @@ $('.owl-carousel').owlCarousel({
 
 <div class="container-fluid sec-p">
   <div class="row" style="margin-top:60px;">
-    <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 text-center">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-12 text-center">
       <div class="subheading">
         Chef
       </div>
@@ -391,49 +425,48 @@ $('.owl-carousel').owlCarousel({
     <div class="container" style="margin-top:70px;">
       <div class="row d-flex flex-row justify-content-between">
         <div class="col-xl-3 chef-card">
-          <div data-aos="fade-up" data-aos-duration="600" class="chef-imgs no-padding" id="chef1"></div>
+          <div data-aos="fade-up" data-aos-once="true" data-aos-duration="600" class="chef-imgs no-padding" id="chef1"></div>
           <p class="chef-name">John Smooth</p>
           <p class="chef-role">Restaurant Owner</p>
           <div class="d-flex flex-direction-column justify-content-between chef-social-pack">
-            <span data-aos="fade-up" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
           </div>
         </div>
         
         <div class="col-xl-3 chef-card">
-          <div data-aos="fade-up" data-aos-duration="700" class="chef-imgs no-padding" id="chef2"></div>
+          <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="chef-imgs no-padding" id="chef2"></div>
           <p class="chef-name">Rebeca Welson</p>
           <p class="chef-role">Head Chef</p>
         <div class="d-flex flex-direction-column justify-content-between chef-social-pack">
-          <span data-aos="fade-up" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
         </div>
-        </div>
-          
-          <div class="col-xl-3 chef-card">
-            <div data-aos="fade-up" data-aos-duration="800" class="chef-imgs no-padding" id="chef3"></div>
-              <p class="chef-name">Kharl Branyt</p>
-              <p class="chef-role">Chef</p>
+        </div> 
+        <div class="col-xl-3 chef-card">
+          <div data-aos="fade-up" data-aos-once="true" data-aos-duration="800" class="chef-imgs no-padding" id="chef3"></div>
+            <p class="chef-name">Kharl Branyt</p>
+            <p class="chef-role">Chef</p>
             <div class="d-flex flex-direction-column justify-content-between chef-social-pack">
-              <span data-aos="fade-up" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
-          </div>
+              <span data-aos="fade-up" data-aos-once="true" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
+              <span data-aos="fade-up" data-aos-once="true" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
+              <span data-aos="fade-up" data-aos-once="true" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
+              <span data-aos="fade-up" data-aos-once="true" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
+            </div>
         </div>
         <div class="col-xl-3 chef-card">
-          <div data-aos="fade-up" data-aos-duration="900" class="chef-imgs no-padding" id="chef4"></div>
+          <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="chef-imgs no-padding" id="chef4"></div>
           <p class="chef-name">Luke Simon</p>
           <p class="chef-role">Chef</p>
         <div class="d-flex flex-direction-column justify-content-between chef-social-pack">
-          <span data-aos="fade-up" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
-          <span data-aos="fade-up" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="500"><i class="fa-brands fa-twitter chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="600"><i class="fa-brands fa-facebook-f chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="700"><i class="fa-brands fa-google-plus-g chef-social-icons"></i></span>
+          <span data-aos="fade-up" data-aos-once="true" data-aos-duration="800"><i class="fa-brands fa-instagram chef-social-icons"></i></span>
         </div>
         </div>
       </div>
@@ -444,8 +477,8 @@ $('.owl-carousel').owlCarousel({
 <div class="container-fluid" id="book-bg">
   <div class="container">
     <div class="row">
-      <div data-aos="fade-up" data-aos-duration="900" class="col-lg-7 bg-white padding">
-        <div data-aos="fade-up" data-aos-duration="700" class="col-md-12 text-center">
+      <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="col-lg-7 bg-white padding">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="col-md-12 text-center">
           <div class="subheading">
             Book a table
           </div>
@@ -500,13 +533,13 @@ $('.owl-carousel').owlCarousel({
 </div>
 
   <div class="container sec-p">
-    <div data-aos="fade-up" data-aos-duration="700" class="col-md-12 text-center">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="col-md-12 text-center">
       <div class="subheading">
         Testimony
       </div>
       <div class="heading-section text-center Service-header-style mb-4">Happy Customer</div>
       <div class="row cust-slide-pack">
-        <div data-aos="fade-up" data-aos-duration="500" class="col-md-4 col-sm-12 cust-t-card">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-4 col-sm-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img1">
             <span class="quote d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -518,7 +551,7 @@ $('.owl-carousel').owlCarousel({
             <p class="cust-label">CUSTOMER</p>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700" class="col-md-4 col-sm-12 cust-t-card">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="col-md-4 col-sm-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img2">
             <span class="quote d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -530,7 +563,7 @@ $('.owl-carousel').owlCarousel({
             <p class="cust-label">CUSTOMER</p>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="900" class="col-md-4 col-sm-12 cust-t-card">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="col-md-4 col-sm-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img3">
             <span class="quote d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -543,7 +576,7 @@ $('.owl-carousel').owlCarousel({
           </div>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="500" class="col-md-4 col-sm-12 cust-t-card">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-4 col-sm-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img1">
             <span class="quote d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -555,7 +588,7 @@ $('.owl-carousel').owlCarousel({
             <p class="cust-label">CUSTOMER</p>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="700" class="col-md-4 col-sm-12 cust-t-card">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="col-md-4 col-sm-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img2">
             <span class="quote d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -567,7 +600,7 @@ $('.owl-carousel').owlCarousel({
             <p class="cust-label">CUSTOMER</p>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="900" class="col-md-4 col-xs-12 cust-t-card">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="col-md-4 col-xs-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img3">
             <span class="quote d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -585,14 +618,14 @@ $('.owl-carousel').owlCarousel({
 
 <div class="container-fluid blog-bg sec-p">
   <div class="container">
-    <div data-aos="fade-up" data-aos-duration="500" class="col-md-12 text-center heading-pack">
+    <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-12 text-center heading-pack">
       <div class="subheading">
         Blog
       </div>
       <div class="heading-section text-center Service-header-style">Recent Posts</div>
     </div>
       <div class="row d-flex flex-row justify-content-evenly">
-        <div data-aos="fade-up" data-aos-duration="500" class="col-md-4 d-flex flex-column justify-content-between">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="col-md-4 d-flex flex-column justify-content-between">
           <div class="blog-img" id="blog-1"></div>
           <div class="blog-card d-flex flex-column justify-content-between">
             <div class="blog-date-cover">
@@ -607,7 +640,7 @@ $('.owl-carousel').owlCarousel({
           </div>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="600" class="col-md-4 d-flex flex-column justify-content-between">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="600" class="col-md-4 d-flex flex-column justify-content-between">
           <div class="blog-img" id="blog-2"></div>
           <div class="blog-card d-flex flex-column justify-content-between">
             <div class="blog-date-cover">
@@ -622,7 +655,7 @@ $('.owl-carousel').owlCarousel({
           </div>
         </div>
         
-        <div data-aos="fade-up" data-aos-duration="700" class="col-md-4 d-flex flex-column justify-content-between">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="col-md-4 d-flex flex-column justify-content-between">
           <div class="blog-img" id="blog-3"></div>
           <div class="blog-card d-flex flex-column justify-content-between">
             <div class="blog-date-cover">
@@ -652,9 +685,9 @@ $('.owl-carousel').owlCarousel({
             there live the blind texts.
           </p>
           <div class=" d-flex flex-row justify-content-between footer-social-pack">
-            <i data-aos="fade-up" data-aos-duration="500" class="fa-brands fa-twitter footer-social"></i>
-            <i data-aos="fade-up" data-aos-duration="600" class="fa-brands fa-facebook-f footer-social"></i>
-            <i data-aos="fade-up" data-aos-duration="700" class="fa-brands fa-instagram footer-social"></i>
+            <i data-aos="fade-up" data-aos-once="true" data-aos-duration="500" class="fa-brands fa-twitter footer-social"></i>
+            <i data-aos="fade-up" data-aos-once="true" data-aos-duration="600" class="fa-brands fa-facebook-f footer-social"></i>
+            <i data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="fa-brands fa-instagram footer-social"></i>
           </div>
         </div>
         <div class="col-xl-3 p-20">
@@ -714,7 +747,8 @@ $('.owl-carousel').owlCarousel({
       </div>
       
     </div>
-</footer>  
+</footer>
+<script src="js/scroll.js"></script>  
 <script src="js/slick.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>

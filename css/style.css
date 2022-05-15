@@ -97,6 +97,21 @@ color:#1bbc9b !important;
 .logo:hover{
     color:#FFFDFA;
 }
+.tag-line-sm{
+    position: absolute;
+    font-size: 10px;
+    bottom: 20px;
+    left: 154px;
+    top: 32px;
+    color: #000000;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.n-btm-bdr{
+    border:none !important;
+}
+
 .tag-line{
     position: absolute;
     font-size: 9px;
@@ -104,13 +119,25 @@ color:#1bbc9b !important;
     left: 125px;
     top: 39px;
     color: #FFFDFA;
-    font-family: cursive;
+    font-family: Adobe Garamond Pro Bold;
     font-weight: 100;
 }
 .navbar-collapse{
     border-top:none !important;
     /* -webkit-box-shadow: inset 0 1px 0 rgb(0 0 0); */
     box-shadow: inset 0 1px 0 rgb(255 255 255 / 0%) !important;
+}
+.scrl-book-btn{
+    background:#1bbc9b;
+    text-align: center;
+    cursor:pointer;
+}
+.scrl-book-btn:hover{
+    color:#fff !important;
+}
+
+.scrl-btn-clr-exl{
+    color:#fff !important;
 }
 .book-btn{
     background:#1bbc9b;
@@ -136,7 +163,6 @@ color:#1bbc9b !important;
     cursor:pointer;
     opacity: 1 !important;
 }
-
 .p-y{
     padding-top:7px;
     padding-bottom:7px;
@@ -1153,6 +1179,38 @@ padding:48px;
 .heading-pack{
     margin-top:20px;
 }
+.scroll-navbar-pack{
+    top:0;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+#scrollNav{
+    position: fixed;
+    transition: 0.5s;
+    display: none;
+
+}
+.scrl-nav{
+    margin-bottom:0px;
+    color:#000000 !important;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom:0px !important;
+}
+.scrl-link{
+    color:#000000 !important;
+    font-size: 17px;
+    padding: 15px !important;
+    font-weight: 400;
+    cursor:pointer;
+    opacity: 1 !important;
+}
 .t-area{
     height:inherit !important;
 }
@@ -1637,6 +1695,9 @@ svg{
     }
     .footer-social-pack{
         width:35%;
+    }
+    #scrollNav{
+        display:none !important;
     }
 
 }
