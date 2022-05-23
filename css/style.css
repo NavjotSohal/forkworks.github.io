@@ -1379,7 +1379,21 @@ svg{
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-
+#slide1{
+    background-image: url(../img/slide1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#slide2{
+    background-image: url(../img/slide2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#slide3{
+    background-image: url(../img/slide3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 .slick-list
 {
     position: relative;
@@ -1807,6 +1821,9 @@ svg{
     }
     .brand-mark-home{
         font-size:45px;
+    }
+    .slick-slide{
+        height:90vh;
     }
 
 }
