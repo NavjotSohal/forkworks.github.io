@@ -67,6 +67,11 @@
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    infinite: true,
+    speed: 800,
+    arrows:true,
+    fade: true,
+    cssEase: 'linear'
   });
 });
   </script>
@@ -115,7 +120,7 @@
 
   <!--Navbar Small-->
   <div class="small-nav w-100">
-    <nav class="navbar sticky-top mb-none p-3">
+    <nav class="navbar mb-none p-3">
       <div class="w-100 d-flex flex-row justify-content-between">
         <a class="navbar-brand logo" href="index.html">ForkWorks<span class="tag-line">...Exotic food paradise</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,9 +156,22 @@
 
 <!-- Big Screen Navbar Starts Here -->
 <div class="home-slider">
-  <img src="img/slide1.jpg" class="slider-imgs img-fluid" alt="slider-img-1"/>
-  <img src="img/slide2.png" class="slider-imgs img-fluid" alt="slider-img-2"/>
-  <img src="img/slide3.jpg" class="slider-imgs img-fluid" alt="slider-img-3"/>
+  
+  <div class="text-center slider-packs">
+    <p class="brand-mark-home">Forkworks</p>
+    <p class="home-slider-txt">ELEGANT DINNING</p>
+    <img src="img/slide1.jpg" class="slider-imgs" alt="slider-img-1"/>
+  </div>
+  <div class="text-center slider-packs">
+    <p class="brand-mark-home">Forkworks</p>
+    <p class="home-slider-txt">Nutritious & Tasty</p>
+    <img src="img/slide2.jpg" class="slider-imgs" alt="slider-img-2"/>
+  </div>
+  <div class="text-center slider-packs">
+    <p class="brand-mark-home">Forkworks</p>
+    <p class="home-slider-txt">Delicious Specialties</p>
+    <img src="img/slide3.jpg" class="slider-imgs" alt="slider-img-3"/>
+  </div>
 </div>
 <div class="container-fluid d-flex flex-column home">
 
