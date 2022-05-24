@@ -78,6 +78,11 @@ color:#1bbc9b !important;
     transform: translate(-50%,-50%);
     z-index:9;
 }
+.test{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
 .ctb{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     z-index:9;
@@ -1632,6 +1637,51 @@ svg{
     text-transform: uppercase;
     font-weight: 600;
 }
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+}
+
+.scroll-down
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%,-50%);
+}
+.scroll-down span:nth-child(2)
+{
+    animation-delay: -0.2s;
+}
+.scroll-down span:nth-child(3)
+{
+    animation-delay: -0.4s;
+}
+.scroll-down span
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.slide-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:black;
+    height:100%;
+    width: 100%;
+    z-index:9999999;
+    opacity:0.1;
+}
+
 @media screen and (max-width: 720px) and (min-width: 300px) {
     .home-item-display{
         background:#000;
@@ -1654,7 +1704,7 @@ svg{
         padding:16px;
     }
     .cust-t-card{
-        margin-bottom:60px !important;
+        margin-bottom:0px !important;
     }
     .p-20{
         padding:0px !important;
@@ -1695,8 +1745,9 @@ svg{
         font-size:35px;
     }
     .subheading{
-        font-size:80px;
+        font-size:50px;
         text-align:center;
+        margin-bottom:0px;
     }
     .Service-header-style{
         font-size:30px;
@@ -1706,7 +1757,7 @@ svg{
     } */
     .heading-section{
         text-align:center;
-        font-size:40px;
+        font-size:25px;
     }
     .p-15{
         margin-bottom:50px;
@@ -1808,7 +1859,7 @@ svg{
         padding-right:0px !important;
     }
     .sec-p {
-        padding: 3em 0;
+        padding: 1em 0;
     }
     .tmony-txt-pack {
         padding: 0rem !important;
@@ -1817,13 +1868,22 @@ svg{
         margin-bottom:0px;
     }
     .home-slider-txt{
-        font-size:35px;
+        font-size:40px;
     }
     .brand-mark-home{
         font-size:45px;
     }
     .slick-slide{
         height:90vh;
+    }
+    .margin-top{
+        margin-top:2px;
+    }
+    .slick-dots{
+        position:absolute;
+        top:75%;
+        left:50%;
+        transform:translate(-50%,-50%);
     }
 
 }
@@ -1833,4 +1893,23 @@ svg{
  body{
      display:none !important;
  }
+}
+
+
+@keyframes animate
+{
+    0%
+  {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%
+  {
+        opacity: 1;
+    }
+    100%
+  {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
 }
