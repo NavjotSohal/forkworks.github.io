@@ -564,12 +564,11 @@ text-decoration: none;
 }
 .footer-social{
     color:#fff;
-    font-size: 18px;
+    font-size:18px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 50%;
     display: block;
     padding:15px;
-
 }
 #book-bg{
 background-image: url(../img/book-bg.png);  
@@ -1708,6 +1707,139 @@ svg{
     font-weight: 700;
     margin-bottom: 20px;
 }
+.md-nw-div{
+    display:none;
+}
+.chef-imgs{
+    background-position: top center;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 721px) {
+.home-slider-txt{
+    top:65%;
+    font-size: 40px;
+}
+.brand-mark-home{
+    top:60%;
+    font-size:55px;
+}
+.heading-section{
+    font-size:45px;
+    line-height: 1.5;
+}
+.Service-header-style{
+    text-align: center !important;
+}
+.about-dtls-cont{
+    padding:0px 0px !important;
+}
+.about-section{
+    margin-top:350px;
+}
+.home-item-display{
+    top:650px;
+}
+.home-img-title-txt, .home-img-desc-txt{
+    color:#333333;
+}
+#abt-img1{
+    margin-top:0px;
+}
+.abt-imgs{
+    margin:0px;
+}
+.gold-txt{
+    font-size:30px;
+}
+.abt-cnt-pad {
+    padding: 3em 0 !important;
+}
+.para-width{
+    line-height:23px;
+    padding-left:0px;
+}
+.para{
+    font-size:15px;
+}
+.counter-pack-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.count-caption{
+    font-weight:700;
+}
+.service-explain-txt{
+    font-size:14px;
+    line-height:1.5;
+}
+.services-feature-header{
+    font-size:19px;
+    margin-bottom: 15px;
+}
+.chef-card{
+    margin-bottom:50px !important;
+}
+.chef-role{
+    font-size:20px;
+}
+.cust-cmt{
+    font-size:15px;
+    line-height:1.5;
+}
+    .cust-imgs{
+        height:100px;
+        width:100px;
+    }
+    .cust-name{
+        font-size:16px;
+    }
+    .slick-dots{
+        position:absolute;
+        top:60%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    .sec-p{
+        padding:2em 0;
+    }
+    .footer-bg{
+        padding: 40px 15px 50px;
+    }
+    .footer-social-pack {
+        width: 35%;
+    }
+    .p-20{
+        margin-bottom:30px !important;
+    }
+    .footer-header{
+        margin-bottom:5px;
+    }
+    .blog-card{
+        margin-bottom:40px;
+        padding:15px 0px;
+    }
+    .p-20{
+        padding:0px !important;
+    }
+    /* .flex{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    } */
+    .ft-div{
+        margin-bottom:50px !important;
+        padding:10px !important;
+    }
+    .nw-other-screen{
+        display:none !important;
+    }
+    .md-nw-div{
+        display:flex;
+        flex-direction:row;
+    }
+}
+
 @media screen and (max-width: 720px) and (min-width: 300px) {
     .sidebox{
         padding:0px !important;
