@@ -86,20 +86,23 @@
 });
   </script>
 </head>
-<body>   
+<body onload="myFunction()">  
+<div id="loader">
 
+</div>
+<div id="bdy">
 <!--Scroll navbar starts here-->
 
   <div class="container-fluid bg-white scroll-navbar-pack" id="scrollNav">
     <div class="container">
-      <nav class="navbar scrl-nav navbar-expand-lg n-btm-bdr">
+      <nav class="navbar navbar-expand-lg scrl-nav n-btm-bdr"> <!--navbar-expand-lg-->
         <div class="container-fluid">
           <a class="navbar-brand scrl-link logo" href="index.html">ForkWorks<span class="tag-line-sm">...Exotic food paradise</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav hello d-flex flex-row justify-content-end w-100 d-sm-column">
+            <ul class="navbar-nav hello d-flex flex-row justify-content-end w-100 justify-content-lg-center">
               <li class="nav-item">
                 <a class="nav-link scrl-link page-active" aria-current="page" href="index.html">Home</a>
               </li>
@@ -134,7 +137,7 @@
       <div class="w-100 d-flex flex-row justify-content-between">
         <a class="navbar-brand logo" href="index.html">ForkWorks<span class="tag-line">...Exotic food paradise</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="d-flex flex-row justify-content-between align-items-center menu-btn-txt"><i class="fa-solid fa-bars "></i></span>
+            <span class="d-flex flex-row justify-content-between align-items-center menu-btn-txt"><i class="fa-solid fa-bars"></i></span>
           </button>
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -194,14 +197,14 @@
   <div class="container-fluid comp-info">
     <div class="container">
       <div class="row p-y d-flex flex-row justify-content-between align-items-center">
-        <div class="col-md-4">
+        <div class="col-4">
           <span class="comp-details"><i class="fa-solid fa-phone"></i>+ 1235 2355 98</span>
         </div>
-        <div class="col-md-4">
+        <div class="col-4">
           <span class="comp-details"><i class="fas fa-paper-plane"></i>hello@forkworks.com</span>
         </div>
-        <div class="col-md-4">
-        <span class="comp-details">Open hrs: Mon - Sun 8:00AM - 9:00PM</span>
+        <div class="col-4">
+        <span class="comp-details"><i class="fa-regular fa-clock"></i> Mon - Sun 8:00AM - 9:00PM</span>
       </div>
         </div>
       </div>
@@ -218,7 +221,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav hello d-flex flex-row justify-content-end w-100 d-sm-column">
+            <ul class="navbar-nav hello d-flex flex-row justify-content-end w-100">
               <li class="nav-item">
                 <a class="nav-link links page-active" aria-current="page" href="index.html">Home</a>
               </li>
@@ -273,7 +276,6 @@
     </div>
   </div>
 </div>  
-
 
 <!-- About Section -->
 
@@ -711,8 +713,8 @@
 <footer>
   <div class="container-fluid footer-bg">
     <div class="container">
-      <div class="row d-flex flex-row justify-content-between">
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-20 flex ft-div">
+      <div class="row d-flex flex-row justify-content-between ftr-tab-flex">
+        <div class="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-20 flex ft-div">
           <p class="footer-header">Forkworks</p>
           <p class="footer-para">Far far away, behind the word mountains, 
             far from the countries Vokalia and Consonantia,
@@ -724,7 +726,7 @@
             <i data-aos="fade-up" data-aos-once="true" data-aos-duration="700" class="fa-brands fa-instagram footer-social"></i>
           </div>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-20 ft-div">
+        <div class="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-20 ft-div">
           <p class="footer-header">Open Hours</p>
           <ul>
             <li class="timmings">
@@ -750,7 +752,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-20 ft-div">
+        <div class="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-20 ft-div">
           <p class="footer-header">Instagram</p>
           <div class="footer-intsa-pack row p-15">
             <div id="ftinsta1" class="foot-insta-img col-6 no-padding"></div>
@@ -764,9 +766,9 @@
           </div>
           </div>
         
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-20 ft-div f-cntr">
+        <div class="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-20 ft-div f-cntr">
           
-            <p class="footer-header">Newsletter</p>
+            <p class="footer-header align-self-end">Newsletter</p>
             <p>Far far away, behind the word mountains, far from the countries.</p>
             <form action="" class="no-padding">
               <input type="email" class="form-control news-sub-fld" placeholder="Enter email address"/>
@@ -785,6 +787,20 @@
       
     </div>
 </footer>
+</div>
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("bdy").style.display = "block";
+  }
+  </script>
+  
 <script src="js/scroll.js"></script>  
 <script src="js/slick.min.js"></script>
 <script src="js/waypoints.min.js"></script>
