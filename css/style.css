@@ -13,32 +13,6 @@ body{
     font-size:17px;
     overflow-x: hidden;   
 }
-#loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    background-image: url(../img/loader.png);
-    width: 120px;
-    height: 120px;
-    margin: 200px 0 0 -60px;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #1bbc9b;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-}
-/* Add animation to "page content" */
-.animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-    }
-#bdy{
-    display: none;
-}
 .navbar-brand{
     color:#fff;
     display: inline-block;
