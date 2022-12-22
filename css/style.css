@@ -221,7 +221,7 @@ color:#1bbc9b !important;
     width:100%;
 }
 .slick-list{
-    height:100vh;
+    height:55vh;
     width:100vw;
 }
 .fa-bars{
@@ -1649,7 +1649,6 @@ svg{
 	justify-content: space-around;
 	width: 300px;
 }
-
 .scroll-down
 {   display:none;
     position: absolute;

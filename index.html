@@ -14,13 +14,25 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   -->
 
 <script>
   jQuery(document).ready(function($) {
       $('.counter').counterUp({
           delay: 10,
           time: 3000
+      });
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.port-slide-pack').slick({
+          dots: false,
+          infinite: true,
+          autoplay: true,
+          rtl: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
       });
   });
 </script>
@@ -558,7 +570,7 @@
     </div>
   </div>
 </div>
-<!-- Booking from section ends here-->
+<!-- Booking form section ends here-->
 
 <!--clients testimony starts here-->
 
@@ -596,7 +608,7 @@
         <div data-aos="fade-up" data-aos-once="true" data-aos-duration="900" class="col-md-4 col-sm-12 cust-t-card">
           <div class="cust-imgs mb-4" id="cust-img3">
             <span class="quote d-flex align-items-center justify-content-center">
-              <i class="fa-solid fa-quote-left quote-mark"></i>
+            <i class="fa-solid fa-quote-left quote-mark"></i>
             </span>
           </div>
           <div class="tmony-txt-pack">
@@ -707,6 +719,36 @@
   </div>
 </div>
 
+
+<div class="container d-flex flex-column justify-content-center pf-pack">
+  <div class="row d-flex flex-row justify-content-center">
+      <div class="col-10 d-flex flex-row justify-content-between align-items-center port-slide-pack">
+          
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 port-card">
+              <p class="project-title">Slide 1</p>
+              <p class="project-desc">Middle eastern developers is a project build to permote the Job demands of developing nations. The site deals as bridge between aspirants willing to work in U.A.E and the job providers. </p>
+          </div>
+          
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 port-card">
+              <p class="project-title">Slide 2</p>
+              <p class="project-desc">Middle eastern developers is a project build to permote the Job demands of developing nations. The site deals as bridge between aspirants willing to work in U.A.E and the job providers. </p>
+          </div>
+
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 port-card">
+              <p class="project-title">Slide 3</p>
+              <p class="project-desc">Middle eastern developers is a project build to permote the Job demands of developing nations. The site deals as bridge between aspirants willing to work in U.A.E and the job providers. </p>
+          </div>
+          
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 port-card">
+              <p class="project-title">Slide 4</p>
+              <p class="project-desc">Middle eastern developers is a project build to permote the Job demands of developing nations. The site deals as bridge between aspirants willing to work in U.A.E and the job providers. </p>
+          </div>
+
+      </div>
+  </div>
+</div>
+
+
 <footer>
   <div class="container-fluid footer-bg">
     <div class="container">
@@ -786,7 +828,7 @@
 </footer>
 
 
-  
+
 <script src="js/scroll.js"></script>  
 <script src="js/slick.min.js"></script>
 <script src="js/waypoints.min.js"></script>
